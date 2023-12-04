@@ -33,7 +33,7 @@ body {
 .header__menu__item {
     text-decoration: none;
     color: var(--color-main);
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 700;
 }
 
@@ -47,7 +47,7 @@ body {
 
 .surprise__title {
     color: var(--color-secondary);
-    font-size: 38px;
+    font-size: 2.37rem;
     text-align: center;
 }
 
@@ -65,14 +65,14 @@ body {
 
 .letter__title {
     color: var(--color-secondary);
-    font-size: 30px;
+    font-size: 1.87rem;
 }
 
 .letter__text {
     color: var(--color-secondary);
     font-weight: 300;
     text-align: justify;
-    font-size: 17px;
+    font-size: 1.06rem;
 }
 
 .photos {
@@ -85,7 +85,7 @@ body {
 
 .photos__title {
     color: var(--color-secondary);
-    font-size: 30px;
+    font-size: 1.87rem;
 }
 
 .photos__container {
@@ -109,4 +109,47 @@ body {
 
 .footer__text {
     color: var(--color-main);
+}
+
+@media (max-width: 1020px) {
+
+    .surprise {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .photos__container__photo {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 764px) {
+    
+    .header__menu {
+        justify-content: center;
+    }
+
+    .surprise__title {
+        font-size: 2rem;
+    }
+
+    .surprise__image {
+        width: 60%;
+    }
+
+    .letter__title,
+    .photos__title {
+        font-size: 1.60rem;
+    }
+
+    .photos__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .photos__container__photo {
+        width: 100%;
+    }
+
 }
