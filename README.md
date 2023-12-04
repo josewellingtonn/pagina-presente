@@ -22,7 +22,7 @@ O site uma única página dividida em seções:
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final em funcionamento.]()
+[Veja o projeto final em funcionamento.](https://pagina-presente-delta.vercel.app/)
 
 Neste repositório você tem acesso a todos os arquivos necessários para execução.
 
